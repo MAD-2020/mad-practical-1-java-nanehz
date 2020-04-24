@@ -12,7 +12,9 @@ public class Question2
 
       System.out.println("Enter Weight");
       double weight = in.nextDouble();
+    
+    double bmi = weight/(height*height)
 
-      System.out.println("Height: " + height + " Weight: " +  weight);
+      System.out.println("Height: " + height + " Weight: " +  weight + "Bmi: " + bmi);
   }
 }
